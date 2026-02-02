@@ -264,6 +264,10 @@
     --bg-grey-warm: #efefef;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -308,7 +312,7 @@ h6 {
 }
 
 .custom-navbar {
-    margin-top: 1em;
+    
     /* border: 1px solid #dcdcdc; */
     border-radius: 15px;
     padding: 0.5rem;    
@@ -332,6 +336,9 @@ h6 {
         0 20px 25px -5px rgba(0, 0, 0, 0.05);
 }
 
+.navbar-section {
+    padding-top: 1em;
+}
 
 .navbar-brand img {
     margin-top: -5px;
@@ -356,6 +363,14 @@ h6 {
 
 .nav-link:hover {
     color: rgba(0, 180, 230, 1);
+}
+
+.portfolio-buttons {
+    line-height: 1.5;
+}
+
+.about-numbers {
+    line-height: 1.15;
 }
 
 article h2,
@@ -1129,14 +1144,6 @@ a.link-to-blog:hover {
     text-decoration: none;
 }
 
-.text-xxl {
-    font-size: 1.5em;
-}
-
-.description-text {
-    font-size: 1.25em;
-}
-
 /*
  * PULSE ICON
  */
@@ -1280,7 +1287,7 @@ a.premium-image-hotspots-tooltips-link {
     }
 
     .description-text {
-        font-size: 24px;
+        font-size: 1.5em;
     }
 
 	.social-container {
